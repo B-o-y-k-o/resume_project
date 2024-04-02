@@ -1,0 +1,61 @@
+.fade {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(5px);
+    padding: auto;
+    display: flex;
+
+    .modal {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 600px;
+        width: 500px;
+        background-color: #c4e0ed;
+        padding: 10px;
+        justify-content: center;
+        border-radius: 4px;
+
+        form {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            input {
+                font-size: 15px;
+                border-radius: 4px;
+                border: none;
+            }
+            input:focus {
+                outline: none;
+            }
+            select {
+                border: none;
+                font-size: 15px;
+                color: gray;
+                border-radius: 4px;
+                background-color: #fff;
+            }
+            select:focus {
+                outline: none;
+            }
+            textarea {
+                box-decoration-break: none;
+                font-size: 15px;
+                border: none;
+                border-radius: 4px;
+            }
+            textarea:focus {
+                outline: none;
+            }
+        }
+    }
+    
+}
+
+.hidden {
+    display: none;
+}

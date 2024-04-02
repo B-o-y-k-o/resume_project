@@ -1,0 +1,1 @@
+Тренировочный проект, технологии: React, TypeScript, NodeJS, PostgresSQL.

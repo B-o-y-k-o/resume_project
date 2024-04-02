@@ -1,0 +1,22 @@
+.button {
+    max-height: 40px;
+    color: rgb(52 127 209);
+    border-color: #fff;
+    border-radius: 4px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+}
+
+.button:hover {
+    background: rgb(39, 140, 248);
+    border-color: rgb(39, 140, 248);
+    color: #fff;
+}
+
+.primory {
+    background: rgb(52 127 209);
+    border-color: rgb(52 127 209);
+    color: #fff;
+}
